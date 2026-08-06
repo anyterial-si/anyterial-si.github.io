@@ -3,15 +3,15 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "example_website_httk"
+name = "si.anyterial.se"
 version = "0.1.0"
-description = "Example of how to use httk as a static site generator (that can be extended with a backend)."
+description = "Top-level Anyterial Supplementary Information website"
 readme = "README.md"
 license = "AGPL-3.0+"
 requires-python = ">=3.11"
 authors = [{ name = "Rickard Armiento", email = "gitcommits@armiento.net" }]
 dependencies = [
-  "httk-serve @ git+https://github.com/httk/httk-web@ba3d276",
+  "httk-web @ git+https://github.com/httk/httk-serve@ba3d276",
 ]
 classifiers = [
   "Operating System :: OS Independent",

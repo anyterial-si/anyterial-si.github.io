@@ -11,7 +11,7 @@ license = "AGPL-3.0+"
 requires-python = ">=3.11"
 authors = [{ name = "Rickard Armiento", email = "gitcommits@armiento.net" }]
 dependencies = [
-  "httk-web @ git+https://github.com/httk/httk-web",
+  "httk-serve @ git+https://github.com/httk/httk-web@ba3d276",
 ]
 classifiers = [
   "Operating System :: OS Independent",

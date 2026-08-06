@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Top-level Anyterial Supplementary Information website"
 readme = "README.md"
 license = "AGPL-3.0+"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 authors = [{ name = "Rickard Armiento", email = "gitcommits@armiento.net" }]
 dependencies = [
   "httk-web @ git+https://github.com/httk/httk-serve@ba3d276",
@@ -50,13 +50,13 @@ line-length = 120
 skip-string-normalization = true
 
 [tool.pyright]
-pythonVersion = "3.11"
+pythonVersion = "3.12"
 include = ["src", "serve_dynamic.py", "publish_static.py"]
 extraPaths = ["src"]  
 reportMissingImports = true
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.12"
 files = ["src", "serve_dynamic.py", "publish_static.py"]
 mypy_path = ["src"]
 namespace_packages = true

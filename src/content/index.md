@@ -8,26 +8,9 @@ template: default
 base_template: base_default
 ---
 
-My website
-==========
+Supplementary Information Archive
+==================================
 
-This is my formidable website. It contains the following sections:
+We use this website to curate large and interactive supplementary materials.
 
-* [Blog](blog)
-* [Contact](contact)
-
-Subheading
-----------
-
-Here is some nice math:
-
-$\int (x+y)\,dx$
-
-And a code segment:
-
-``` python
-x = 1
-if x == 1:
-    # indented four spaces
-    print("x is 1.")
-```
+* [Symmetry-restricted energy landscapes as a benchmark for machine learned interatomic potentials](https://si.anyterial.se/s2dpes/)
